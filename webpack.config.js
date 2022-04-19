@@ -10,7 +10,7 @@ module.exports = {
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'test',
+      title: 'To Do List',
     }),
     new MiniCssExtractPlugin({
       filename: "style.css"
